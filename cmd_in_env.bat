@@ -1,0 +1,1 @@
+start D:\dev\venvs\trade_venv\Scripts\activate

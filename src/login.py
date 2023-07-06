@@ -1,9 +1,11 @@
 from jproperties import Properties
 import webbrowser
 import urllib.parse
+import os
+import sys
 
 url = "https://api.icicidirect.com/apiuser/login?api_key="
-with open('app.properties', 'r+b') as prop:
+with open(os.path.join(sys.path[0], 'app.properties'), 'r+b') as prop:
     configs = Properties()
     configs.load(prop,"utf-8")
     if len(configs) == 0:
