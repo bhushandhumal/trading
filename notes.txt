@@ -1,2 +1,6 @@
 links
 https://pypi.org/project/breeze-connect/
+
+https://api.icicidirect.com/breezeapi/documents/index.html#quotes
+
+https://medium.datadriveninvestor.com/visualizing-option-trading-strategies-in-python-35bfa61151d9
